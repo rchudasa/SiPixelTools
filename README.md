@@ -7,9 +7,9 @@ git clone https://github.com/rchudasa/SiPixelTools-HitAnalyzer.git SiPixelTools/
 scram b -j8
 cd SiPixelTools/HitAnalyzer/test
 
-## Produce the TTbar MC using 
+#### Produce the TTbar MC using 
 cmsRun PhaseI_TTbar_13TeV_NoPu_RECO_cfg.py
 
-## Produce the PixelHit Ntuples
+#### Produce the PixelHit Ntuples
 cmsRun readRecHits.py
 
